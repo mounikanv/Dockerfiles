@@ -1,5 +1,5 @@
 FROM almalinux:9
-RUN install nginx -y
+RUN install git -y
 RUN useradd mounika
 USER mounika
 CMD ["google.com"]
