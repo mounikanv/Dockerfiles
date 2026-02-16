@@ -1,4 +1,4 @@
-From almalinux:9
+FROM almalinux:9
 ENV COURSE="devopes" \
     DURASTION="120" \
     TOPICS="docker&k8s" \
