@@ -4,4 +4,4 @@ RUN dnf install git -y
 RUN useradd mounika
 USER mounika
 CMD ["google.com"]
-ENTRYPOINT ["PING"]
+ENTRYPOINT ["ping"]
