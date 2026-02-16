@@ -2,5 +2,5 @@ FROM almalinux:9
 ENV COURSE="devopes" \
 DURASTION="120" \
 TOPICS="docker&k8s" \
-DURATION="20HRS" \
+DURATION="20HRS" 
 CMD ["sleep", "1000"]
