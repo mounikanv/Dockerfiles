@@ -1,7 +1,7 @@
 ARG version
 FROM almalinux:9
-ENV course="devopes" /
-    duration="20hrs" /
+ENV course="devopes" \
+    duration="20hrs" 
 ARG topics="Docker&K8S"    
 ENV topics=$topics
 RUN echo "Hi, course is:${course}, duration is:${duration}, topics are:${topics}, version: ${version}"
