@@ -1,7 +1,7 @@
 ARG version
 FROM almalinux:9
 ENV course="devopes" /
-    duration="20hrs"
+    duration="20hrs" /
 ARG topics=$topics
 ENV echo "Hi, course is:${course}, duration is:${duration}, topics are:${topics}, version: ${version}"
 CMD ["sleep", "1000"]   
